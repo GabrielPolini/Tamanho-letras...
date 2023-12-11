@@ -1,0 +1,188 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+
+p{
+    color: brown;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(10, 0, 0);
+}
+
+/* classes e ids */
+
+#titulo {
+   
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+}
+.meu-paragrafo {
+   
+    background-color: black;
+    color: white;
+}
+ 
+/* seletores para todos os elementos de listas */
+
+p, h1 {
+   
+    border-bottom: 3px solid burlywood ;    
+}
+/*Fontes*/
+.serifada{
+    font-family: Georgia;
+
+}
+
+.sem-serifa{
+    font-family: helvetica;
+}
+
+.mono-espacada{
+    font-family: 'Courier New', Courier, monospace
+}
+/*Size e Weight*/
+.tamanho-fonte-grande{
+    font-size: 64px ;
+}
+
+.tamanho-fonte-pequena{
+    font-size: 10px ;
+}
+
+.peso-negrito{
+    font-weight: 700 ;
+}
+
+.peso-italico{
+    font-size: italic;
+}
+/*Box Model*/
+.box-model{
+    
+    border: 20px black;
+    width: 200px;
+    height: 100;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px 10px 20px 450px;
+    background-color: cadetblue;
+}
+/* PROPRIEDADES DE TEXTO */
+.alinhamento{
+    text-align: center;
+
+}
+
+.maiusculo{
+    text-transform: uppercase;
+}
+
+.minusculo{
+    text-transform: lowercase;
+}
+/*Espaçamento de texto*/
+.espacamento-texto{
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+/*Links*/
+.link{
+    text-decoration: none;  
+}
+
+.visitado:visited{
+    color: orange;
+
+}
+
+.link-hover:hover{
+    background-color: violet;
+
+}
+/*Criando botão através de um link*/
+.botao{
+    background-color: burlywood;
+    border: 2px solid #0d1012;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+    font-family: Italic;
+
+}
+
+.botao:hover{
+    background-color: teal;
+
+}
+/*Display*/
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco{
+    display: inline-block;
+}
+/*
+position fixed */
+.elemento-fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(74, 197, 235);
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+/*Especifidade do css*/
+.h2{
+    text-align: center;
+    color: royalblue;
+}
+
+.titulo2{
+    text-align: center;
+    color: saddlebrown;
+}
+
+.titulo3{
+    text-align: center;
+    color: green
+}
+/*IMPORTANT*/
+h2 {
+    color:black !important;
+}
+
+.lateral{
+    width: 180px;
+    float: inline-end;
+    position: relative;
+    right: 0;
+    top: 0;
+}
